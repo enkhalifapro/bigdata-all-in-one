@@ -59,6 +59,11 @@ services:
       - postgres
     volumes:
       - ./hue.ini:/usr/share/hue/desktop/conf/z-hue.ini
+  jupyter-pyspark:
+    image: jupyter/pyspark-notebook
+    ports:
+      - "8889:8888" # jupyter port
+      - "4040:4040" # pySpark port
 
 volumes:
   namenode:

@@ -1,4 +1,5 @@
 # big data All-In-One
+Docker-compose contains the most common big data systems like: Apache Hadoop, Apache Hive, Apache Spark, Jupyter, Flink  
 
 ## All images and configurations are in docker-compose.yml
 
